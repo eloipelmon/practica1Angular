@@ -1,0 +1,17 @@
+header{
+    padding: 5px;
+    border: 3px double #c5edff;
+    background-image: url(../../../assets/playground.jpg);
+}
+#fotoJulian{
+    width: 180px;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #f9b026;
+}

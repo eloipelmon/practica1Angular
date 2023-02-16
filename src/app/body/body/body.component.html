@@ -1,0 +1,56 @@
+<body>
+    <div id="escuela">
+        <h1>Escuela</h1>
+        <img src="../../../assets/julianMochila.png" >
+        <p>{{pEscuela}}</p>
+        <p>{{pEscuela2}}</p>
+        <h2>Horario</h2>
+        <table>
+            <thead>
+                <tr style="font-weight: bold;">
+                    <td>Hora</td>
+                    <td>Lunes</td>
+                    <td>Martes</td>
+                    <td>Miércoles</td>
+                    <td>Jueves</td>
+                    <td>Viernes</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let d of horario;" >
+                    <td>{{d.hora}}</td>
+                    <td>{{d.horaLunes}}</td>
+                    <td>{{d.horaMartes}}</td>
+                    <td>{{d.horaMiercoles}}</td>
+                    <td>{{d.horaJueves}}</td>
+                    <td>{{d.horaViernes}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="extraescolares">
+        <h1>Mis extraescolares</h1>
+        
+        
+        <section class="ajedrez">
+            <h2>Ajedrez</h2>
+            <h3>Lunes y Miércoles de 17:00 a 18:30</h3>
+            <img src="../../../assets/julianAjedrez.png" alt="">
+            <p>{{pAjedrez}}</p>
+            <p>{{pAjedrez2}}</p>
+            <p>{{pAjedrez3}}</p>
+        </section>
+    
+        <section class="boxeo">
+            <h2>Boxeo</h2>
+            <h3>Martes y Jueves de 17:30 a 19:00</h3>
+            <img src="../../../assets/julianGuantes.png" alt="">
+            <p>{{pBoxeo}}</p>
+            <p>{{pBoxeo2}}</p>
+            <p>{{pBoxeo3}}</p>
+            <p>{{pBoxeo4}}</p>
+        </section>
+    
+    </div>
+</body>

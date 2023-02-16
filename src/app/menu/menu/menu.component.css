@@ -1,0 +1,20 @@
+button{
+    all: unset;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: rgb(255,255,255,0.7);
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a i{
+    color: #f9b026;
+}
+button:hover{
+    background-color: rgb(255,255,255,0.9);
+}

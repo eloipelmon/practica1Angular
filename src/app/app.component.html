@@ -1,0 +1,13 @@
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<div [class]="miClase">
+  <button class="botonModo" (click)="cambioClase()"><i class='bx bx-brightness-half'></i></button>
+
+  <app-header></app-header>
+
+  <app-body></app-body>
+  
+  <app-footer></app-footer>
+
+  <router-outlet></router-outlet>
+</div>

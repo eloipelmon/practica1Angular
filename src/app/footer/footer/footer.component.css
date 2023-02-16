@@ -1,0 +1,20 @@
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 600;
+    border: 3px double #c5edff;
+    margin-top: 10px;
+    color: #f9b026;
+    
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1.7em;
+}
+h2 i{
+    font-size: 15px;
+}
